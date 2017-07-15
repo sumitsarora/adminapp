@@ -1,0 +1,67 @@
+*{
+    background-color: #ccc;
+}
+
+.label{
+    font-family: sans-serif;
+    font-style: italic;
+    color: red;
+    text-align: center;
+}
+
+div button{
+    font-weight: bold;
+    font-size: 1em;
+    color: #673ab7;
+}
+
+div button a{
+    text-decoration: none;
+}
+
+div .home{
+    float: right;
+    color: #673ab7;
+    font-size: 1em;
+}
+
+.home a{
+    text-decoration: none;
+}
+.upload{
+    padding: 10px;
+    font-style: italic;
+    color: green;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #008CBA;} /* Blue */
+.danger {background-color: #f44336;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */
+.button5 {background-color: #555555;} /* Black */
+
+input[type="checkbox"]
+{
+    font-size: 1em;
+    color: #4CAF50;
+}

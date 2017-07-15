@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>upload</title>
+    <link href="../static/css/main.css" type="text/css" rel="stylesheet"></link>
+  </head>
+  <body>
+      <h3 class="label">Welcome To Upload Page</h3>
+    <div>
+    <form method="POST" enctype=multipart/form-data action ="{{url_for('ws.upload')}}">
+      <input type="file" name="user_file" class="button info">
+      <input type="submit" class="button info">
+    </form>
+   </div>
+    <div class="upload" >{{output}}</div>
+    <br/><br/>
+    <div><button class="home"><a href="/ws">Home</a></button></div>
+  </body>
+</html>
